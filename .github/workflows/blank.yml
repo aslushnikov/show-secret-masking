@@ -27,4 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - run: env
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
